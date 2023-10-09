@@ -1,0 +1,62 @@
+
+*{
+    margin: 40px;
+}
+
+body{
+    background-color: aquamarine;
+    box-sizing: border-box;
+}
+
+#figuras{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#cuadrado{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 6px dotted pink;
+    /* solid, dashed, dotted, double, inset*/ 
+    /*border-style: ;*/
+}
+
+#rectangulo{
+    width: 100px;
+    height: 50px;
+    background-color: crimson;
+    border: 6px double rgb(12, 200, 84);
+}
+
+#circulo{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(90deg, rgb(105, 234, 105), rgb(52, 52, 232));
+    border-radius: 50%;
+}
+
+#triangulo{
+    border-right:solid 50px transparent;
+    border-left:solid 50px transparent;
+    border-top:solid 0px transparent;
+    border-bottom:solid 100px orange;
+}
+
+#luna{
+    width: 100px;
+    height: 100px;
+    background-color: transparent; 
+    border-radius: 50%;
+    box-shadow: 25px 10px 0 0 chartreuse ;
+    margin-top: 15px ;
+    margin-left: -20px;
+}
+
+#rombo{
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    transform: rotate(45deg) skewX(10deg) skewY(10deg);
+}
